@@ -1,0 +1,323 @@
+body {
+    background-color: #273438;
+}
+
+#header {
+   
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.headerContainer {
+    width: 30%;
+}
+
+.headerContainer h3 {
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+.headerContainer2 p {
+    text-align: center;
+    color: white;
+}
+
+#main {
+    margin: 7rem 0;
+}
+
+
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 0 7rem;
+}
+
+.mainContent img {
+    width: 240px;
+    height: auto;
+}
+
+.isi1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.isi1 p {
+    color: white;
+    font-size: 1.4em;
+    font-family: Italic;
+    font-family: "Ancizar Sans", sans-serif;
+}
+
+
+.mainContent2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0 7rem;
+}
+
+.mainContent2 img {
+    width: 240px;
+    height: auto;
+}
+
+.isi2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.isi2 p {
+    color: white;
+    font-size: 1.4em;
+    font-family: Italic;
+    font-family: "Ancizar Sans", sans-serif;
+}
+
+
+.mainContent3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.titlec3 {
+    background-color: white;
+    display: block;
+    border-radius: 15px;
+    padding: 3px 3rem;
+}
+
+.titlec3 h4 {
+    font-size: 1.6rem;
+}
+
+.desk3 {
+    border: 1px solid white;
+    margin: 5rem;
+    padding: 3rem;
+}
+
+.desk3 p {
+    color: white;
+    font-size: 20px;
+}
+
+.mainContent4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titlec4 {
+    background-color: white;
+    display: block;
+    border-radius: 15px;
+    padding: 3px 3rem;
+}
+
+.titlec4 h4 {
+    font-size: 1.6rem;
+}
+
+.mainPresentation {
+    display: flex;
+}
+
+.present1, .present2, .present3 {
+    margin: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    padding: 3rem;
+}
+
+.present1 p, .present2 p, .present3 p {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.present1 img {
+    width: 300px;
+    height: auto;
+}
+
+.present2 img {
+    width: 300px;
+    height: auto;
+}
+
+.present3 img {
+    width: 300px;
+    height: auto;
+}
+
+.mainContent5 {
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+}
+
+.titlec5 {
+    background-color: white;
+    display: block;
+    border-radius: 15px;
+    padding: 3px 3rem;
+}   
+
+
+.titlec5 h4 {
+    font-size: 1.6rem;
+}
+
+.mainContent6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 2rem;
+}
+
+.mainContent6 h3 {
+    color: white;
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+.project1 {
+ display: flex;
+}
+
+.projectPicture1 img {
+  width: 300px;
+  height: auto;
+  border-radius: 4rem;
+}
+
+.projectDesk1 {
+    
+    align-content: center;
+    margin-left: 1.6rem;
+}
+
+.projectDesk1 p {
+    text-align: center;
+    font-size: 1.6rem;
+    color: white;
+}
+
+
+
+.mainContent7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 2rem;
+}
+
+.mainContent7 h3 {
+    color: white;
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+.project2 {
+ display: flex;
+}
+
+.projectPicture2 img {
+  width: 300px;
+  height: auto;
+  border-radius: 4rem;
+}
+
+.projectDesk2 {
+    
+    align-content: center;
+    margin-left: 1.6rem;
+}
+
+.projectDesk2 p {
+    text-align: center;
+    font-size: 1.6rem;
+    color: white;
+}
+
+.containerProject {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.mainContent6, .mainContent7 {
+    margin: 3rem 1.4rem 3rem 1.4rem;
+}
+
+
+
+.mainContent8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.titlec8 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem 4rem;
+}
+
+.titlec8 h4 {
+    font-size: 1.6rem;
+}
+
+.skillContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    justify-items: left;
+    align-items: left;
+}
+
+.skill1, .skill2 {
+    
+    margin: 1.2rem;
+    padding: 1.2rem;
+
+}
+
+.skill1 h3, .skill2 h3 {
+    color: white;
+    font-size: 2.6rem;
+}
+
+.skill1 p, .skill2 p {
+    font-size: 1.4rem;
+    color: white;
+} 
